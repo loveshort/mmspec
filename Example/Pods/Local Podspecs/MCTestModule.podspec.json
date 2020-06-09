@@ -1,0 +1,22 @@
+{
+  "name": "MCTestModule",
+  "version": "0.1.2",
+  "summary": "私有库，模块组件化内容，以及第一次使用内容,我修改了上传的文件和内容",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/271901088@qq.com/MCTestModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "271901088@qq.com": "271901088@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/271901088@qq.com/MCTestModule.git",
+    "tag": "0.1.2"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "MCTestModule/Classes/**/*"
+}

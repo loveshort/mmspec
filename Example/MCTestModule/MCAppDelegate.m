@@ -7,12 +7,14 @@
 //
 
 #import "MCAppDelegate.h"
-
+#import <MCTestSiYouModule.h>
 @implementation MCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    MCTestSiYouModule *testSiYouModule = [[MCTestSiYouModule alloc] init];
+    NSLog(@"----%@-",testSiYouModule);
     return YES;
 }
 

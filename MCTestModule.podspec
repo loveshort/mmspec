@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MCTestModule'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of MCTestModule.'
+  s.version          = '0.1.2'
+  s.summary          = '私有库，模块组件化内容，以及第一次使用内容,我修改了上传的文件和内容'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/271901088@qq.com/MCTestModule.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'MCTestModule/Classes/**/*'
   
